@@ -3,12 +3,13 @@ import PropTypes from 'prop-types';
 
 
 
-const Display = ({ bgcolor }) => (
+const Display = ({ bgcolor, bgImage }) => (
 
 <div style={{
-    width: '250px',
-    height: '250px',
+    width: '634px',
+    height: '634px',
     backgroundColor: bgcolor,
+    backgroundImage: `url("${bgImage}")`
   }}></div>
 
 );
